@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rememra Solutions — Modern Funeral Payments Platform</title>
+  <meta name="description" content="Rememra Solutions streamlines funeral-home cash flow with seamless insurance assignments, payments, and back‑office automation." />
+  <!-- Tailwind via CDN for rapid styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 border-b border-white/10 backdrop-blur bg-slate-950/70">
+    <div class="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3 group">
+        <img src="./assets/rememra-logo.png" alt="Rememra Solutions logo" class="h-9 w-9 rounded-md ring-1 ring-white/10">
+        <span class="font-semibold tracking-tight text-lg group-hover:opacity-90">Rememra <span class="opacity-70">Solutions</span></span>
+      </a>
+      <nav class="hidden md:flex items-center gap-8 text-sm">
+        <a href="#what-we-do" class="nav-link">What we do</a>
+        <a href="#pilot" class="nav-link">Pilot</a>
+        <a href="#contact" class="btn-outline">Contact</a>
+      </nav>
+      <button class="md:hidden p-2 rounded-lg ring-1 ring-white/10" id="mobileMenuBtn" aria-label="Open menu">
+        <span class="sr-only">Menu</span>☰
+      </button>
+    </div>
+    <!-- Mobile menu -->
+    <div id="mobileMenu" class="md:hidden hidden border-t border-white/10">
+      <div class="px-6 py-4 flex flex-col gap-3 text-sm">
+        <a href="#what-we-do" class="nav-link">What we do</a>
+        <a href="#pilot" class="nav-link">Pilot</a>
+        <a href="#contact" class="btn-outline w-fit">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 -z-10 bg-gradient-to-b from-indigo-900/30 via-slate-900 to-slate-950"></div>
+    <div class="mx-auto max-w-6xl px-6 py-24 md:py-32">
+      <div class="max-w-2xl">
+        <h1 class="text-4xl md:text-6xl font-semibold leading-tight tracking-tight">
+          Streamlined payments for<br><span class="text-indigo-400">modern funeral homes</span>
+        </h1>
+        <p class="mt-6 text-slate-300 max-w-xl">
+          Rememra Solutions helps funeral directors accelerate cash flow with automated
+          insurance assignments, transparent family payments, and back‑office workflows—so
+          you can focus on serving families.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="#pilot" class="btn-primary">Join the Pilot</a>
+          <a href="#what-we-do" class="btn-ghost">How it works</a>
+        </div>
+        <!-- Optional: Scheduling link -->
+        <div class="mt-6 text-sm text-slate-400">
+          Prefer to talk? <a href="https://calendar.app.google/GaNFK6CSnERh9L8c9" class="underline hover:text-slate-200">Book a 15‑minute intro</a>.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What we do -->
+  <section id="what-we-do" class="mx-auto max-w-6xl px-6 py-20 md:py-28">
+    <div class="grid md:grid-cols-2 gap-12 items-start">
+      <div>
+        <h2 class="section-title">What we do</h2>
+        <p class="section-body">
+          We bring together payment rails, insurance‑assignment automation, and
+          easy‑to‑use tools designed for funeral‑home teams. No clunky spreadsheets.
+          No month‑long waits for reimbursements. Just clean, compliant workflows.
+        </p>
+        <ul class="mt-8 space-y-4">
+          <li class="feature">
+            <span class="feature-bullet">✓</span>
+            <div><strong class="feature-title">Insurance assignments—fast</strong><br>
+            Submit, track, and reconcile assignments with status updates and
+            document vaulting.</div>
+          </li>
+          <li class="feature">
+            <span class="feature-bullet">✓</span>
+            <div><strong class="feature-title">Flexible family payments</strong><br>
+            Offer cards, ACH, plans, and assistance options with clear, family‑first UX.</div>
+          </li>
+          <li class="feature">
+            <span class="feature-bullet">✓</span>
+            <div><strong class="feature-title">Back‑office automation</strong><br>
+            Auto‑generate statements, sync to your accounting, and reduce manual tasks.</div>
+          </li>
+          <li class="feature">
+            <span class="feature-bullet">✓</span>
+            <div><strong class="feature-title">Compliance & security</strong><br>
+            Reasonable defaults for PCI and PHI‑adjacent flows, role‑based access, and audit trails.</div>
+          </li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-header">Pilot snapshot</div>
+        <ul class="card-list">
+          <li><span class="label">Setup:</span> 30–60 minutes guided onboarding</li>
+          <li><span class="label">Includes:</span> assignments, payments, ledger, support</li>
+          <li><span class="label">Ideal for:</span> 1–10 location funeral homes</li>
+          <li><span class="label">Goal:</span> accelerate time‑to‑cash and reduce admin time</li>
+        </ul>
+        <a href="#pilot" class="btn-primary mt-6 w-full text-center">Request Pilot Access</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pilot CTA -->
+  <section id="pilot" class="relative py-20 md:py-28">
+    <div class="absolute inset-0 -z-10 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950"></div>
+    <div class="mx-auto max-w-6xl px-6">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="section-title">Pilot program</h2>
+          <p class="section-body">
+            We’re inviting a small number of partners to co‑design Rememra with us.
+            Join to get concierge onboarding and direct input into the product roadmap.
+          </p>
+          <div class="mt-6">
+            <!-- Optional Tally form link -->
+            <a href="#" class="btn-outline" id="tallyLink" href="https://tally.so/r/w4eME5" target="_blank" rel="noopener">Apply via Tally</a>
+            <p class="mt-2 text-xs text-slate-400">Replace the link above with your Tally form URL.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">Quick contact</div>
+          <form id="contactForm" class="space-y-4">
+            <div>
+              <label class="form-label">Name</label>
+              <input type="text" name="name" class="form-input" required placeholder="Full name" />
+            </div>
+            <div>
+              <label class="form-label">Email</label>
+              <input type="email" name="email" class="form-input" required placeholder="you@company.com" />
+            </div>
+            <div>
+              <label class="form-label">Company</label>
+              <input type="text" name="company" class="form-input" placeholder="Funeral home name" />
+            </div>
+            <div>
+              <label class="form-label">Message</label>
+              <textarea name="message" class="form-input" rows="4" placeholder="Tell us about your workflows and goals..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary w-full">Send message</button>
+            <p class="text-xs text-slate-400">
+              This demo uses a <span class="underline decoration-dotted" title="mailto fallback">mailto</span> fallback.
+              Replace with Formspree or your backend endpoint in <code>script.js</code>.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10">
+    <div class="mx-auto max-w-6xl px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-400">
+      <div>© <span id="year"></span> Rememra Solutions. All rights reserved.</div>
+      <div class="flex items-center gap-3">
+        <a href="mailto:hello@rememra.com" class="underline hover:text-slate-200">hello@rememra.com</a>
+        <span aria-hidden="true">•</span>
+        <a href="https://calendar.app.google/GaNFK6CSnERh9L8c9" class="underline hover:text-slate-200">Book a call</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
